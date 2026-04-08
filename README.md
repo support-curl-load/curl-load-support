@@ -28,7 +28,7 @@ docker --version
 ## ▶️ Run curl-load
 
 ```bash
-docker run -p 3000:3000 -p 5665:5665 curlload/curl-load-runner:latest
+docker run -p 3000:3000 -p 5665:5665 -v curl-load-runs:/app/runs curlload/curl-load-runner:latest
 ```
 
 ---
